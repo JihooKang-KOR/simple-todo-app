@@ -1,0 +1,98 @@
+= API Document of To-do List Application
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: Table of Contents
+:source-highlighter: prettify
+
+by Jihoo Kang
+
+ver. 1.0.1
+
+== To-do Controller
+=== Post To-do Item
+.curl-request
+include::{snippets}/post-todo/curl-request.adoc[]
+
+.http-request
+include::{snippets}/post-todo/http-request.adoc[]
+
+.request-fields
+include::{snippets}/post-todo/request-fields.adoc[]
+
+.response-headers
+include::{snippets}/post-todo/response-headers.adoc[]
+
+=== Patch To-do Item
+.curl-request
+include::{snippets}/patch-todo/curl-request.adoc[]
+
+.http-request
+include::{snippets}/patch-todo/http-request.adoc[]
+
+.path-parameter
+include::{snippets}/patch-todo/path-parameters.adoc[]
+
+.request-fields
+include::{snippets}/patch-todo/request-fields.adoc[]
+
+.http-response
+include::{snippets}/patch-todo/http-response.adoc[]
+
+.response-fields
+include::{snippets}/patch-todo/response-fields.adoc[]
+
+=== Get To-do Item
+.curl-request
+include::{snippets}/get-todo/http-request.adoc[]
+
+.http-request
+include::{snippets}/get-todo/http-request.adoc[]
+
+.path-parameter
+include::{snippets}/get-todo/path-parameters.adoc[]
+
+.http-response
+include::{snippets}/get-todo/http-response.adoc[]
+
+.response-fields
+include::{snippets}/get-todo/response-fields.adoc[]
+
+=== Get All To-do Items
+.curl-request
+include::{snippets}/get-todos/http-request.adoc[]
+
+.http-request
+include::{snippets}/get-todos/http-request.adoc[]
+
+.path-parameter
+include::{snippets}/get-todos/path-parameters.adoc[]
+
+.http-response
+include::{snippets}/get-todos/http-response.adoc[]
+
+.response-fields
+include::{snippets}/get-todos/response-fields.adoc[]
+
+=== Delete To-do Item
+.curl-request
+include::{snippets}/delete-todo/http-request.adoc[]
+
+.http-request
+include::{snippets}/delete-todo/http-request.adoc[]
+
+.path-parameter
+include::{snippets}/delete-todo/path-parameters.adoc[]
+
+.http-response
+include::{snippets}/delete-todo/http-response.adoc[]
+
+=== Delete All To-do Items
+.curl-request
+include::{snippets}/delete-todos/http-request.adoc[]
+
+.http-request
+include::{snippets}/delete-todos/http-request.adoc[]
+
+.http-response
+include::{snippets}/delete-todos/http-response.adoc[]
